@@ -1,0 +1,81 @@
+/* Margin left to make sure the form isn't hovering over our blue bar on the left */
+main {
+    margin-left: 12%;
+}
+
+header {
+    margin-left: 1%;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0096FF;
+}
+
+hr {
+    margin: 1%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    border: 0.5px solid whitesmoke;
+}
+
+/* The styling for the blue bar */
+aside {
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    background-color: #0096FF;
+}
+
+/* Removes the borders from the input and select boxes */
+input, select {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 15%;
+    width: 200%;
+}
+
+label {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+}
+
+/* Works with indent-1 section to make sure the two sections display side by side */
+.indent-1 {
+    float: left;
+}
+    
+.indent-1 section {
+    width: 15%; float: left;
+}
+
+.formSect {
+    padding: 1%;
+    margin-right: 15%;
+}
+
+/* Continue button styling */
+#continue {
+    color: white;
+    background-color: #0096FF;
+    border: none;
+    border-radius: 25px;
+    margin-top: 25%;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* Reset button styling */
+#reset {
+    margin-top: 20%;
+    border: none;
+    color: lightgray;
+    background-color: white;
+}
+
+#hr2 {
+    width: 650%;
+}

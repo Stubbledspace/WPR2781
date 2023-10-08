@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!--Aside is the blue bar on the left-->
+    <aside>
+
+    </aside>
+    <main>
+        <header>Basic Details</header>
+        <hr>
+        <form action="results.html" method="GET">
+            <!--The form is split into two sections to display everything side by side-->
+            <section class="indent-1">
+                <!-- Section 1 --> 
+                <section class="formSect">
+                    <label for="name">First Name</label>
+                    <input name="Name" type="text" id="Fname" placeholder="Enter your username" required>
+
+                    <label for="email">Email</label>
+                    <input name="Email" type="email" id="email" placeholder="Enter your email" required>
+
+                    <!--Select for the dropdown selection-->
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="South Africa">South Africa</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="Japan">Japan</option>
+                        <option value="United States">United States</option>
+                    </select>
+                    
+                    <label for="phone">Phone Number</label>
+                    <input name="phone" type="tel" id="phoneNo" placeholder="Enter your number" required>
+
+                    <hr id="hr2">
+
+                    <button type="reset" id="reset">Reset All</button>
+                </section>
+            
+                <!-- Section 2 -->
+                <section class="formSect">
+                    <label for="name" class="rightSect">Last Name</label>
+                    <input name="Name" type="text" id="Lname" placeholder="Enter your username" required>
+
+                    <label for="userName">UserID</label>
+                    <input name="name" type="text" id="userID" placeholder="Enter your user ID" required>
+
+                    <div>
+                        <!--Select for the dropdown selection-->
+                        <label for="state">Province</label>
+                        <select id="country" name="country">
+                            <option value="South Africa">South Africa</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Japan">Japan</option>
+                            <option value="United States">United States</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="city">City</label>
+                        <select id="country" name="country">
+                            <option value="South Africa">South Africa</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="Japan">Japan</option>
+                            <option value="United States">United States</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" id="continue">Continue</button>
+                </section>
+
+                
+            </section>
+            
+        </form>
+    </main>
+    
+</body>
+</html>
